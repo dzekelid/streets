@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Streets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/streets/master/_listings/transport-for-london-unified/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/streets/master/_listings/transport-for-london-unified/placeaddressstreetspostcode-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/streets/master/_listings/transport-for-london-unified/placeaddressstreetspostcode-get-openapi.md
+- name: Transport for London Unified - Road all  Street  Disruption
+  x-api-slug: roadallstreetdisruption-get
+  description: Gets a list of disrupted streets. if no date filters are provided,
+    current disruptions are returned..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
+  humanURL: https://tfl.gov.uk/
+  baseURL: https://api.tfl.gov.uk//
+  tags: Transportation, Transit, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streets/master/_listings/transport-for-london-unified/roadallstreetdisruption-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streets/master/_listings/transport-for-london-unified/roadallstreetdisruption-get-openapi.md
 - name: Transport for London Unified - Road all  Street  Disruption
   x-api-slug: roadallstreetdisruption-get
   description: Gets a list of disrupted streets. if no date filters are provided,
